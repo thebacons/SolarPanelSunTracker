@@ -5,7 +5,8 @@ This version is a PoC and uses an ESP32 TTGO  version and 2 servo motors to rota
 1. WiFiUdp.h - A library to connect to the internet and to the de.pool.ntp.org 
 2. NTPClient.h - A library to determine the current date and time. This connects to the Network Time Protocol in Germany, de.pool.ntp.org. See this website for more details --> https://www.ntppool.org/en/#news  The date and time are used with the sunPosition.h library, which needs the exact date and time to determine the sun's position. 
 3. SunPosition.h - A library To track the sun's current position. the code has been hardcoded with my current address near Aachen in Germany. The following website was used to validate the results of the sun position angles -> http://shadowcalculator.eu/#/lat/50.753824866570575/lng/6.020683529072293 
-4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. I just use i to display the current azimuth and altitude angles. The altitude is the angle of the sun to the horizon and the azimuth is the angle in degrees from the z-axis to the horizon.
+4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. Ennsure to download the library from GitHub as the version provided in the Arduono IDE does not work. --> https://www.lilygo.cc/en-pl/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board m  ![image](https://github.com/thebacons/SolarPanelSunTracker/assets/77930793/a84007d6-6866-4f6d-b1e5-2f3624c783e1)
+ I just use the TFT to display the current azimuth and altitude angles. The altitude is the angle of the sun to the horizon and the azimuth is the angle in degrees from the z-axis to the horizon.
 5. ESP32Servo.h - A library to rotate the servo. This is a great library as I only need to define the pwm pins and the angle values are just entered directly without any mapping.  
 
 
