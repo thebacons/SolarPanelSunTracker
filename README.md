@@ -17,9 +17,9 @@ Reduced shading effects: Tracking the sun's movement helps minimize shading effe
 To test the logic of a solar panel sun tracker, an ESP32 TTGO version and two servo motors can be used to rotate a solar panel so it continuously faces the sun. The Arduino code uses several libraries to connect to the internet, determine the current date and time, and track the sun's current position. The code also uses a library to control the display of the ESP32-TTGO display and another library to rotate the servo.
 While RC servo motors are too weak to rotate a full solar panel, this setup can be used to measure the increase in power by tracking the sun compared to having the solar panel facing one direction. To estimate the savings based on average solar radiation data for your location, you can use historical weather data to get a more accurate estimation.
 Here are some resources that provide more information on solar panel sun trackers and how to build them:
-Reddit: A discussion on building a solar panel sun tracker using an ESP32
-1. Hackaday: A low-cost solar panel solution using an MPPT and sun tracker
-3.Instructables: A tutorial on building a two-axis solar tracker controlled by an ESP32 and Pro Micro
-4. GitHub: Code for a low-cost solar panel solution using an MPPT and sun tracker
-5.GitHub: Code for a sun tracker using ESP32 for automatic dual-axis solar tracker or heliostat
-6. By using a solar panel sun tracker, you can significantly increase the power output and energy production of your solar panel compared to a static position, especially during midday when the sun is at its highest point in the sky.
+*Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
+*f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
+*DIY Portable Solar Tracker - How To Build Simple Tracker - Progressive Automations: https://www.progressiveautomations.com/blogs/how-to/how-to-build-a-portable-solar-tracker
+*Solar Radiation Data Sources, Applications and Network Design - OSTI.GOV: https://www.osti.gov/servlets/purl/6652754
+*Arduino Solar Tracker (Single or Dual Axis) : 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
+*Solar Tracker (ESP32 & MicroPython) : 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
