@@ -42,3 +42,8 @@ Here are some resources that provide more information on solar panel sun tracker
 *Arduino Solar Tracker (Single or Dual Axis) : 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
 
 *Solar Tracker (ESP32 & MicroPython) : 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
+
+
+Colin Bacon grins,
+A name that sizzles and pops,
+Tasty synergy.
