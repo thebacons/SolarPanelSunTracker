@@ -18,21 +18,22 @@ While RC servo motors are too weak to rotate a full solar panel, this setup can 
 This version is merely a PoC and uses an ESP32 TTGO  version and 2 servo motors to rotate a solar panel so it continuously faces the sun. The Arduino code uses the following main libraries. 
 1. WiFiUdp.h - A library to connect to the internet and to the de.pool.ntp.org 
 2. NTPClient.h - A library to determine the current date and time. This connects to the Network Time Protocol in Germany, de.pool.ntp.org. See this website for more details --> https://www.ntppool.org/en/#news  The date and time are used with the sunPosition.h library, which needs the exact date and time to determine the sun's position. 
-3. SunPosition.h - A library To track the sun's current position. the code has been hardcoded with my current address near Aachen in Germany. The following website was used to validate the results of the sun position angles -> http://shadowcalculator.eu/#/lat/50.753824866570575/lng/6.020683529072293 
-4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. Ennsure to download the library from GitHub as the version provided in the Arduono IDE does not work. --> https://www.lilygo.cc/en-pl/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board m  ![image](https://github.com/thebacons/SolarPanelSunTracker/assets/77930793/a84007d6-6866-4f6d-b1e5-2f3624c783e1)
+3. SunPosition.h - A library developed by AlexGyver (https://github.com/GyverLibs/SunPosition) to track the sun's current position. the code has been hardcoded with my current address near Aachen in Germany. The following website was used to validate the results of the sun position angles -> http://shadowcalculator.eu/#/lat/50.753824866570575/lng/6.020683529072293
+![Solar Tracker ](https://github.com/GyverLibs/SunPosition/blob/main/doc/angles.png)
+4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. Ensure to download the library from GitHub as the version provided in the Arduino IDE does not work. --> https://www.lilygo.cc/en-pl/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board m  ![image](https://github.com/thebacons/SolarPanelSunTracker/assets/77930793/a84007d6-6866-4f6d-b1e5-2f3624c783e1)
  I just use the TFT to display the current azimuth and altitude angles. The altitude is the angle of the sun to the horizon and the azimuth is the angle in degrees from the z-axis to the horizon.
 5. ESP32Servo.h - A library to rotate the servo. This is a great library as I only need to define the pwm pins and the angle values are just entered directly without any mapping.  
 
 
 Here are some resources that provide more information on solar panel sun trackers and how to build them:
 
--Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
--f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
-*DIY Portable Solar Tracker - How To Build Simple Tracker - Progressive Automations: https://www.progressiveautomations.com/blogs/how-to/how-to-build-a-portable-solar-tracker
-*Solar Radiation Data Sources, Applications and Network Design - OSTI.GOV: https://www.osti.gov/servlets/purl/6652754
-*Arduino Solar Tracker (Single or Dual Axis) : 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
-*Solar Tracker (ESP32 & MicroPython) : 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
-* https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3
+>Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
+>f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
+>DIY Portable Solar Tracker - How To Build Simple Tracker - Progressive Automation: https://www.progressiveautomations.com/blogs/how-to/how-to-build-a-portable-solar-tracker
+>Solar Radiation Data Sources, Applications and Network Design - OSTI.GOV: https://www.osti.gov/servlets/purl/6652754
+>Arduino Solar Tracker (Single or Dual Axis): 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
+>Solar Tracker (ESP32 & MicroPython): 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
+>Online solar tracker:  [https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3](https://www.suncalc.org/#/50.718,6.2535,17/2023.09.05/16:25/1/3)
 
 
 Colin Bacon grins,
