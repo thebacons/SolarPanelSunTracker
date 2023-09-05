@@ -26,8 +26,8 @@ This version is merely a PoC and uses an ESP32 TTGO  version and 2 servo motors 
 
 Here are some resources that provide more information on solar panel sun trackers and how to build them:
 
-*Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
-*f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
+-Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
+-f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
 *DIY Portable Solar Tracker - How To Build Simple Tracker - Progressive Automations: https://www.progressiveautomations.com/blogs/how-to/how-to-build-a-portable-solar-tracker
 *Solar Radiation Data Sources, Applications and Network Design - OSTI.GOV: https://www.osti.gov/servlets/purl/6652754
 *Arduino Solar Tracker (Single or Dual Axis) : 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
