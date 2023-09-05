@@ -1,13 +1,20 @@
 # SolarPanelSunTracker
-S
+A solar panel sun tracker, with its tilting turntable and azimuth and altitude control, offers several benefits compared to a static solar panel position:
 
+1.
+Increased energy production: By constantly adjusting the position of the solar panel to face the sun directly, a sun tracker maximizes the amount of sunlight captured throughout the day. This leads to higher energy production and increased efficiency.
 
+Improved efficiency: Sun trackers ensure that the solar panel is always oriented optimally, minimizing the angle of incidence between sunlight and the panel's surface. This allows for better absorption of solar radiation and improved conversion of sunlight into electricity.
 
-A solar panel that constantly faces the sun throughout the day can produce more energy compared to a static position, especially during midday. Here are some benefits of using a solar panel sun tracker:
-- Increased energy production: By tracking the sun's movement, a solar panel can capture more sunlight throughout the day, leading to higher energy production compared to a fixed position, especially during the morning and afternoon when the sun is at an angle to the panel.
--Improved efficiency: Solar panels are most efficient when they are directly facing the sun. By tracking the sun's movement, the panel can maintain optimal orientation, maximizing the amount of sunlight it receives. This results in increased efficiency and more electricity generation.
--Longer solar exposure: By rotating to face the sun, the solar panel can have longer exposure to sunlight. This is particularly beneficial during the shorter winter days when the sun's angle is lower, allowing the panel to capture more sunlight and generate more power.
--Reduced shading effects: Tracking the sun's movement helps minimize shading effects from nearby objects such as trees or buildings. By adjusting the panel's position, it can avoid being blocked by shadows, which would otherwise reduce the panel's output.
+Extended operational hours: Sun trackers enable the solar panel to track the sun's movement from sunrise to sunset. By following the sun's path, they capture sunlight for a longer duration compared to fixed panels, maximizing electricity generation throughout the day.
+
+Enhanced seasonal performance: Sun trackers can accommodate seasonal changes in the sun's path. They can adjust the tilt and orientation of the solar panel to match the sun's position during different times of the year, optimizing energy production in all seasons.
+
+Reduced solar panel shading: Sun trackers can actively monitor and mitigate shading issues caused by nearby objects such as trees, buildings, or other structures. By continuously adjusting the position of the solar panel, they can minimize shading and ensure maximum exposure to sunlight.
+
+Cost-effectiveness: While sun trackers may require an initial investment, their increased energy production and efficiency, along with reduced shading, can result in higher overall energy savings. The additional electricity generated can offset the cost of the tracker over time.
+
+These benefits make solar panel sun trackers an attractive option for maximizing solar energy generation and optimizing the performance of solar panel systems.
 
 
 To test the logic of a solar panel sun tracker, an ESP32 TTGO version and two servo motors can be used to rotate a solar panel so it continuously faces the sun. The Arduino code uses several libraries to connect to the internet, determine the current date and time, and track the sun's current position. The code also uses a library to control the display of the ESP32-TTGO display and another library to rotate the servo.
