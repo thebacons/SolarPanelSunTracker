@@ -35,7 +35,7 @@ Here are some resources that provide more information on solar panel sun tracker
 >Online solar tracker:  [https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3](https://www.suncalc.org/#/50.718,6.2535,17/2023.09.05/16:25/1/3)
 
 
-*Here are the next steps outlined for the solar panel project:
+** Here are the next steps outlined for the solar panel project:
 
 1, Power Supply Integration: Utilize the solar panel to provide power to essential components such as the ESP32 and servos. This ensures that the system can operate autonomously with sustainable energy: -- > https://randomnerdtutorials.com/power-esp32-esp8266-solar-panels-battery-level-monitoring/
 
