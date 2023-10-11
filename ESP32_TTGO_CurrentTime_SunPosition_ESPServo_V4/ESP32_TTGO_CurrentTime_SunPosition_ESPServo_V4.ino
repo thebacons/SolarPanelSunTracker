@@ -1,7 +1,7 @@
 /* use this website to confirm the results of azimuth etc. 
    http://shadowcalculator.eu/#/lat/50.71788931617736/lng/6.253379345993735
 
-   use this website to check the current unix time is calculting correcly
+   use this website to check the current Unix time is calculating properly
    https://www.confirado.de/tools/timestamp-umrechner.html
 
    use this website to get the correct time for the region. This one is for Germanz
@@ -52,8 +52,8 @@
 TFT_eSPI tft = TFT_eSPI();  // Invoke library
 
 //connect to the internet
-char ssid[] = "WaldBachHouse";
-char pass[] = "Bacon1234!";
+char ssid[] = "enter your ssid";
+char pass[] = "enter your wifi password";
 WiFiUDP ntpUDP;
 Servo servoAzimuth; //Define two servo objects and create a servo instance for each servo:
 Servo servoAltitude; //Define two servo objects and create a servo instance for each servo:
