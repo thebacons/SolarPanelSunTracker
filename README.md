@@ -1,5 +1,7 @@
 # SolarPanelSunTracker 
 ## by Colin Bacon
+This project was inspired by when I bought my first solar panel and after getting fed up constantly trying to reposition the solar panel to point towards the sun.
+
 A solar panel sun tracker, with its tilting turntable and azimuth and altitude control, offers several benefits compared to a static solar panel position as follows:
 
 1. Increased energy production: By constantly adjusting the position of the solar panel to face the sun directly, a sun tracker maximizes the amount of sunlight captured throughout the day. This leads to higher energy production and increased efficiency.
