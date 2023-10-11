@@ -36,7 +36,7 @@ Here are some resources that provide more information on solar panel sun tracker
 >Solar Tracker (ESP32 & MicroPython): 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
 >Online solar tracker:  [https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3](https://www.suncalc.org/#/50.718,6.2535,17/2023.09.05/16:25/1/3)
 
-m ![TFT Display](https://github.com/thebacons/SolarPanelSunTracker/blob/main/ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/TFT%20Display_1.png)
+Once the sun sets in the evening, the servos go to sleep until the next morning. A message is displayed at the bottom of the TFT display with sun set time as follows;   ![TFT Display](https://github.com/thebacons/SolarPanelSunTracker/blob/main/ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/TFT%20Display_1.png)
 ** Here are the next steps outlined for the solar panel project:
 
 1, Power Supply Integration: Utilize the solar panel to provide power to essential components such as the ESP32 and servos. This ensures that the system can operate autonomously with sustainable energy: -- > https://randomnerdtutorials.com/power-esp32-esp8266-solar-panels-battery-level-monitoring/
