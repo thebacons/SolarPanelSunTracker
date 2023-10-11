@@ -28,13 +28,13 @@ In this version, which serves as a Proof of Concept (PoC), an ESP32 TTGO version
 
 Here are some resources that provide more information on solar panel sun trackers and how to build them:
 
->Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
->f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
->DIY Portable Solar Tracker - How To Build Simple Tracker - Progressive Automation: https://www.progressiveautomations.com/blogs/how-to/how-to-build-a-portable-solar-tracker
->Solar Radiation Data Sources, Applications and Network Design - OSTI.GOV: https://www.osti.gov/servlets/purl/6652754
->Arduino Solar Tracker (Single or Dual Axis): 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
->Solar Tracker (ESP32 & MicroPython): 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
->Online solar tracker:  [https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3](https://www.suncalc.org/#/50.718,6.2535,17/2023.09.05/16:25/1/3)
+- Sun Tracking for More Solar Power - Part 1 - The Hardware: https://www.switchdoc.com/2016/05/sun-tracking-solar-power-part-1/
+- f2knpw/ESP32_Solar_Tracker: low cost solar panel solution (MPPT + sun tracker). Here is the code for the Solar Tracker - GitHub: https://github.com/f2knpw/ESP32_Solar_Tracker
+- DIY Portable Solar Tracker - How To Build Simple Tracker - Progressive Automation: https://www.progressiveautomations.com/blogs/how-to/how-to-build-a-portable-solar-tracker
+- Solar Radiation Data Sources, Applications and Network Design - OSTI.GOV: https://www.osti.gov/servlets/purl/6652754
+- Arduino Solar Tracker (Single or Dual Axis): 6 Steps (with Pictures) - Instructables: https://www.instructables.com/Arduino-Solar-Tracker-Single-or-Dual-Axis/
+- Solar Tracker (ESP32 & MicroPython): 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
+- Online solar tracker:  [https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3](https://www.suncalc.org/#/50.718,6.2535,17/2023.09.05/16:25/1/3)
 
 Once the sun sets in the evening, the servos go to sleep until the next morning. A message is displayed at the bottom of the TFT display with sunset time as follows: ![TFT Display](https://github.com/thebacons/SolarPanelSunTracker/blob/main/ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/TFT%20Display_1.png)
 ** Here are the next steps outlined for the solar panel project:
