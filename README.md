@@ -23,7 +23,7 @@ In this version, which serves as a Proof of Concept (PoC), an ESP32 TTGO version
 2. NTPClient.h - A library to determine the current date and time. This connects to the Network Time Protocol in Germany, de.pool.ntp.org. SAdditional information can be found at --> https://www.ntppool.org/en/#news  The date and time are required as inputs to the sunPosition.h library, to determine the sun's position. 
 3. SunPosition.h - A library developed by AlexGyver (https://github.com/GyverLibs/SunPosition) to track the sun's current position. My sketch is hardcoded with my current address near Aachen in Germany, so you''ll nned to update this line with your own location. The following website was used to validate the results of the sun position angles -> http://shadowcalculator.eu/#/lat/50.753824866570575/lng/6.020683529072293
 ![Solar Tracker ](https://github.com/GyverLibs/SunPosition/blob/main/doc/angles.png)
-4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. It's recommended to download the library from GitHub as the version provided in the Arduino IDE may not work correctly --> https://www.lilygo.cc/en-pl/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board m  ![image](https://github.com/thebacons/SolarPanelSunTracker/assets/77930793/a84007d6-6866-4f6d-b1e5-2f3624c783e1) The TFT display is primarily used to show the current azimuth and altitude angles, where altitude represents the sun's angle to the horizon, and azimuth is the angle from the z-axis to the horizon.
+4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. It's recommended to download the library from GitHub as the version provided in the Arduino IDE may not work correctly --> https://www.lilygo.cc/en-pl/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board m ![image](https://github.com/thebacons/SolarPanelSunTracker/assets/77930793/a84007d6-6866-4f6d-b1e5-2f3624c783e1) The TFT display is primarily used to show the current azimuth and altitude angles, where altitude represents the sun's angle to the horizon, and azimuth is the angle from the z-axis to the horizon.
 5. ESP32Servo.h - A library to rotate the servo. It's a convenient library as it only requires defining the PWM pins, and angle values can be directly input without the need for mapping.
 
 Here are some resources that provide more information on solar panel sun trackers and how to build them:
@@ -36,7 +36,7 @@ Here are some resources that provide more information on solar panel sun tracker
 >Solar Tracker (ESP32 & MicroPython): 4 Steps - Instructables: https://www.instructables.com/Two-axis-Solar-Tracker-Controlled-by-ESP32-and-Pro/
 >Online solar tracker:  [https://www.suncalc.org/#/40.1789,-3.5156,3/2023.09.05/16:21/1/3](https://www.suncalc.org/#/50.718,6.2535,17/2023.09.05/16:25/1/3)
 
-![image](https://github.com/thebacons/SolarPanelSunTracker/blob/main/ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/TFT%20Display_1.png)
+m ![TFT Display](https://github.com/thebacons/SolarPanelSunTracker/blob/main/ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/TFT%20Display_1.png)
 ** Here are the next steps outlined for the solar panel project:
 
 1, Power Supply Integration: Utilize the solar panel to provide power to essential components such as the ESP32 and servos. This ensures that the system can operate autonomously with sustainable energy: -- > https://randomnerdtutorials.com/power-esp32-esp8266-solar-panels-battery-level-monitoring/
