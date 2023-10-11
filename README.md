@@ -1,6 +1,6 @@
 # SolarPanelSunTracker 
 ## by Colin Bacon
-This project was inspired by when I bought my first solar panel and after getting fed up constantly trying to reposition the solar panel to point towards the sun.
+This project was inspired when I bought my first solar panel and after getting fed up constantly trying to reposition the solar panel to point towards the sun.
 
 A solar panel sun tracker, with its tilting turntable and azimuth and altitude control, offers several benefits compared to a static solar panel position as follows:
 
