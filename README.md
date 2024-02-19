@@ -25,7 +25,7 @@ In this version, which serves as a Proof of Concept (PoC), an ESP32 TTGO version
 ![Solar Tracker ](https://github.com/GyverLibs/SunPosition/blob/main/doc/angles.png)
 4. TFT_eSPI.h - A library to control the display of the ESP32-TTGO display. It's recommended to download the library from GitHub as the version provided in the Arduino IDE may not work correctly --> https://www.lilygo.cc/en-pl/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board m ![image](https://github.com/thebacons/SolarPanelSunTracker/assets/77930793/a84007d6-6866-4f6d-b1e5-2f3624c783e1) The TFT display is primarily used to show the current azimuth and altitude angles, where altitude represents the sun's angle to the horizon, and azimuth is the angle from the z-axis to the horizon.
 5. ESP32Servo.h - A library to rotate the servo. It's a convenient library as it only requires defining the PWM pins, and angle values can be directly input without the need for mapping.
-6. 3D Printed model for PoC ![video](ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/SolarTrackerPoC2.mp4)
+6. 3D Printed model for PoC ![video](https://youtube.com/shorts/ansnRClUkbA?feature=share)
 
 Here are some resources that provide more information on solar panel sun trackers and how to build them:
 
