@@ -2,7 +2,8 @@
 ## by Colin Bacon
 **Ever feel like your solar panel plays hide-and-seek with the sun?** Me too! That's why I embarked on this project - a sun-tracking solar panel, a robotic sunflower if you will, to maximize its power-generating potential.
 
-Why a Sun Tracker? It's a Powerhouse of Benefits:
+## Why a Sun Tracker? 
+It's a Powerhouse of Benefits:
 
 Energy Boost: Imagine your panel constantly facing the sun, soaking up every ray. That translates to increased energy production and efficiency, like a caffeinated athlete on steroids!
 
