@@ -42,31 +42,33 @@ This PoC setup could prove valuable for measuring the power increase achievable 
 
 
 ## Scaling Up Your Solar Panel Sun Tracker:
-
-While RC servo motors are OK for the PoC and possibly small solar panels, (such as those used to charge a mobile phones), they probably lack the torque required to rotate a full-sized solar panel, like a large 400-watt panel or a bank of panels. IP66 sealed Servo motors are probably the best choice. Connecting the arduino to a servo driver or something like a CNC shield. fluidNC or OPEN-CNC-Shield 2  running GRBL or flavour therefof is an easy conversion. There are many available controller boards for the ES32, which uses the embedded webserver functionality on the ESP32 which could make a nice interactive webpage (thought for a new project?). As the SolarPanelTracker would need to be outside and exposed to all the elements, the casing and servo motors would need to be in an IP66 enclosure.
 This section explores upgrading your sun tracker from RC servos to servo motors with greater torque and IP66 weatherproofing. This allows you to handle larger solar panels and ensures your tracker functions reliably outdoors.
 
-While RC servos are perfectly suitable for building a proof-of-concept (PoC) and working with small solar panels, such as those used to charge mobile phones, they may lack the strength to move larger panels, like 400-watt models or entire banks of panels.
+While RC servos are perfectly suitable for building a proof-of-concept (PoC) and working with small solar panels, such as those used to charge mobile phones, they may lack the strength to move larger panels, like 400-watt models or entire banks of panels. But checkout the IP65 35kg torque RC Motors as an option too! ![35KG IP66 Servo motor](https://github.com/thebacons/SolarPanelSunTracker/blob/main/713fCe0c19L._SX522_.jpg)
 
 **Here's what you'll need for the upgrade:**
 
-High-torque servo motors: Choose motors capable of handling the weight and resistance of your specific solar panels.
-IP66 enclosure: Protect your electronics from the elements with a weatherproof enclosure.
-ESP32 microcontroller: Leverage the ESP32's built-in Wi-Fi and web server functionality for real-time data and control through a user-friendly webpage.
-Upgrade Steps:
+ - **High-torque servo motors:** Choose motors capable of handling the    weight and resistance of your specific solar panels.
+ - **IP66 enclosure:**    Protect your electronics from the elements with a weatherproof    enclosure.     
+ - **ESP32 microcontroller:**
+   Leverage the ESP32's built-in Wi-Fi    and web server functionality
+   for real-time data and control through a    user-friendly webpage.
 
-**Replace RC servos:** Swap them with higher-torque servo motors suitable for your panel size.
-**Connect the ESP32:** Use the ESP32 board instead of the Arduino.
-**Webserver control:** Utilize the ESP32's built-in web server to create a user-friendly webpage for configuration, control, and real-time data display, similar to the FluidNC program.
+**Upgrade Steps:**
+
+ - **Replace RC servos:** Swap them with higher-torque servo motors suitable for your panel size.
+ - **Connect the ESP32:** Use the ESP32 board instead of the Arduino.
+ - **Webserver control:** Utilize the ESP32's built-in web server to create a user-friendly webpage for configuration, control, and real-time data display, similar to the FluidNC program.
 
 ### Additional Considerations:
 
-Servo drivers: While not essential, servo drivers can simplify wiring and power management for multiple motors.
-CNC shields and GRBL: These options are suited for CNC applications but might be more complex than necessary for a simple sun tracker.
-IP66 enclosure: Choose an enclosure size that comfortably fits your components and allows for cable management.
-Remember: Scaling up requires adjustments based on your specific panel size and motor choice. Research and choose components compatible with each other and your project's requirements.
-
-By following these steps, you can create a robust and scalable sun tracker that effectively positions your larger solar panels for optimal energy generation.
+ - **Servo drivers:** While not essential, servo drivers can simplify wiring and power management for multiple motors.
+ - **CNC shields, FluidNC and GRBL:** These options are suited for CNC applications but might be more complex than necessary for a simple
+   sun tracker. They however use the remote connection to the ESP32 webserver which my provide a neat solution for suntracking and monitoring too. 
+ - **IP66 enclosure:** Choose an enclosure size that comfortably fits your components and allows for cable management. Remember: Scaling up
+   requires adjustments based on your specific panel size and motor
+   choice. Research and choose components compatible with each other and
+   your project's requirements.
 
 
 
