@@ -119,6 +119,7 @@ Curious about building your own sun tracker? Here are some resources that provid
 - https://www.youtube.com/watch?v=cuQo0xxF-PA
 - https://www.youtube.com/watch?v=PMrjN8njqHs
 - http://wiki.fluidnc.com/
+- http://wiki.fluidnc.com/en/hardware/existing_hardware
 
 Colin Bacon grins,
 A name that sizzles and pops,
