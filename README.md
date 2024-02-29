@@ -37,9 +37,37 @@ Here is a 3D Printed model that I used for the PoC -->
 
 ![3D Printed model for PoC](ESP32_TTGO_CurrentTime_SunPosition_ESPServo_V4/SunTrackerPoC.png)] <br>((https://www.youtube.com/shorts/ansnRClUkbA)
 
-## Scaling Up:
+## Total Sun Energy Calculations
+This PoC setup could prove valuable for measuring the power increase achievable in your location by tracking the sun compared to keeping the solar panel fixed in one direction. To estimate potential savings based on average solar radiation data in your area, you can enhance accuracy by referencing historical weather data for a more precise estimation.
 
-While RC servo motors could be appropriate for small solar panels, such as those used to charge a mobile phone, they may lack the strength required to rotate a full-sized solar panel, like a 100-watt one. Nevertheless, this setup can prove valuable for measuring the power increase achieved by tracking the sun compared to keeping the solar panel fixed in one direction. To estimate potential savings based on average solar radiation data in your area, you can enhance accuracy by referencing historical weather data for a more precise estimation.
+
+## Scaling Up Your Solar Panel Sun Tracker:
+
+While RC servo motors are OK for the PoC and possibly small solar panels, (such as those used to charge a mobile phones), they probably lack the torque required to rotate a full-sized solar panel, like a large 400-watt panel or a bank of panels. IP66 sealed Servo motors are probably the best choice. Connecting the arduino to a servo driver or something like a CNC shield. fluidNC or OPEN-CNC-Shield 2  running GRBL or flavour therefof is an easy conversion. There are many available controller boards for the ES32, which uses the embedded webserver functionality on the ESP32 which could make a nice interactive webpage (thought for a new project?). As the SolarPanelTracker would need to be outside and exposed to all the elements, the casing and servo motors would need to be in an IP66 enclosure.
+This section explores upgrading your sun tracker from RC servos to servo motors with greater torque and IP66 weatherproofing. This allows you to handle larger solar panels and ensures your tracker functions reliably outdoors.
+
+While RC servos are perfectly suitable for building a proof-of-concept (PoC) and working with small solar panels, such as those used to charge mobile phones, they may lack the strength to move larger panels, like 400-watt models or entire banks of panels.
+
+**Here's what you'll need for the upgrade:**
+
+High-torque servo motors: Choose motors capable of handling the weight and resistance of your specific solar panels.
+IP66 enclosure: Protect your electronics from the elements with a weatherproof enclosure.
+ESP32 microcontroller: Leverage the ESP32's built-in Wi-Fi and web server functionality for real-time data and control through a user-friendly webpage.
+Upgrade Steps:
+
+**Replace RC servos:** Swap them with higher-torque servo motors suitable for your panel size.
+**Connect the ESP32:** Use the ESP32 board instead of the Arduino.
+**Webserver control:** Utilize the ESP32's built-in web server to create a user-friendly webpage for configuration, control, and real-time data display, similar to the FluidNC program.
+
+### Additional Considerations:
+
+Servo drivers: While not essential, servo drivers can simplify wiring and power management for multiple motors.
+CNC shields and GRBL: These options are suited for CNC applications but might be more complex than necessary for a simple sun tracker.
+IP66 enclosure: Choose an enclosure size that comfortably fits your components and allows for cable management.
+Remember: Scaling up requires adjustments based on your specific panel size and motor choice. Research and choose components compatible with each other and your project's requirements.
+
+By following these steps, you can create a robust and scalable sun tracker that effectively positions your larger solar panels for optimal energy generation.
+
 
 
 ## Dive Deeper:
@@ -66,6 +94,10 @@ This project has exciting potential for further development! Here are some ideas
 - https://circuitdigest.com/microcontroller-projects/iot-solar-panel-power-monitoring-system-using-esp32-and-thingspeak, 
 - https://www.opengreenenergy.com/diy-solar-panel-monitoring-system/
 - https://www.seeedstudio.com/blog/2023/06/05/solar-panel-monitoring-system-built-with-xiao-esp32c3/
+- https://docs.timos-werkstatt.de/open-cnc-shield-2/mainboard
+- https://www.youtube.com/watch?v=cuQo0xxF-PA
+- https://www.youtube.com/watch?v=PMrjN8njqHs
+- http://wiki.fluidnc.com/
 
 ## Scale the project up for larger panels and use stepper motors instead. Here are the general steps to get you started:
 
